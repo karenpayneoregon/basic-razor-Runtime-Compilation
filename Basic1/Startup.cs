@@ -26,7 +26,7 @@ namespace Basic1
             /*
              * We don't need this since it's in launchSettings.json
              */
-            services.AddRazorPages().AddRazorRuntimeCompilation();
+            //services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddRazorPages();
             services.AddControllersWithViews();
         }
