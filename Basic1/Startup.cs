@@ -29,6 +29,8 @@ namespace Basic1
             //services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddRazorPages();
             services.AddControllersWithViews();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +49,8 @@ namespace Basic1
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseBrowserLink();
 
             app.UseRouting();
 
