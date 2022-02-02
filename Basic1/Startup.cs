@@ -50,7 +50,7 @@ namespace Basic1
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseBrowserLink();
+            app.UseBrowserLink(); // requires NuGet package
 
             app.UseRouting();
 
