@@ -4,8 +4,6 @@ A basic ASP.NET Core 5 Razor page project setup for [Razor Runtime Compilation](
 
 There are two profiles setup for this project. Run each, once the site is shown in your browser make a change to Pages/index.cshtml (change `Hello World` to say `Hello`), save the file and the displayed page should show the change. 
 
-**Support ticket**  2201060050001841
-
 ![image](assets/profiles.png)
 
 </br>
@@ -45,3 +43,29 @@ There are two profiles setup for this project. Run each, once the site is shown 
 }
 
 ```
+
+---
+
+### What's new in ASP.NET Core 5.0
+
+[Microsoft docs](https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-5.0?view=aspnetcore-5.0)
+
+### App startup in ASP.NET Core
+
+[Microsoft docs](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-5.0)
+
+### Layout in ASP.NET Core
+
+[Microsoft docs](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-5.0)
+
+### Introduction to Razor Pages in ASP.NET Core
+
+[Microsoft docs](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio)
+
+### Web server implementations in ASP.NET Core
+
+[Microsoft docs](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/?view=aspnetcore-5.0&tabs=windows)
+
+### Practical samples of ASP.NET Core
+
+[GitHub repository](https://github.com/dodyg/practical-aspnetcore)
